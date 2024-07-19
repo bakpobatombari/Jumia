@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+    position: relative;
+}
+
+#slides {
+  height: 300px;
+  width: 600px;
+  background: lightgrey;
+  position: relative;
+}
+
+.toggle {
+  width: 25%;
+  float: left;
+  padding: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: green;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+#slide-1 {
+    display: block;
+}
+
+.toggle:hover ~ #slide-1  {
+  display: none;
+}
+
+$slides: red, green, blue, orange;
+@each $slide in $slides {
+  $i: index($slides, $slide);
+  
+  #toggle-#{$i}, #slide-#{$i} {
+    background-color: $slide;
+  }
+  
+  #toggle-#{$i}:hover ~ #slide-#{$i} {
+    display: block;
+  }
+  
+  #slide-#{$i}:hover {
+    display: block;
+  }
+}
