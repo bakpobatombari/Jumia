@@ -609,11 +609,11 @@ font-family: serif;
   margin-bottom: 20px;
 }
 .best-phone-deals{
-  height:310px;
+  height:360px;
   border-radius: 5px;
   padding: 0;
   background-color: white;
-  margin-bottom: 20px;
+  margin-bottom: -80px;
 }
 .limit-brand{
   font-weight: 300;
