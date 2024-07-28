@@ -1,13 +1,10 @@
-#webnav{
-    height:70px;
-    background: linear-gradient(darkgreen, white);
-}
+
 body{
-  background-image: url(../images/BG_TAKEOVER_ECOFLOW.jpg);
+  background: url("../images/NVA_BG.jpg");
 }
 .main-main{
-  background-image: url(../images/BG_TAKEOVER_ECOFLOW.jpg);
-  background-size: cover;
+  background: url("../images/NVA_BG.jpg");
+background-size: contain;
 }
 .contact-slide{
 background-color: white;
@@ -146,7 +143,7 @@ main{
   float: left;
   padding-top: -10px;
   border: 1px solid #ffffff;
-  background-color: #f1f1f1;
+  background-color: white;
   width: 30%;
   height: 400px;
 }
@@ -205,16 +202,17 @@ main{
 }
 .flash-sale{
   background-color: white;
-  height:350px;
+  height:330px;
   border-radius: 5px;
 }
 
   .flash-header{
-    height:60px;
+    height:50px;
     font-family: serif;
     background-color: #E61601;
     border-radius: 5px;
     padding-top:10px;
+    font-size: 20px;
   }
   .flash-header h3{
     color: white;
@@ -325,7 +323,7 @@ input.nosubmit {
 .product {
   position: relative;
   overflow: hidden;
-  height:285px;
+  height:350px;
 }
 
 .product-category {
@@ -541,7 +539,7 @@ font-family: serif;
   display: flex;
   padding-left: 5px;
   margin-top: 10px;
-  background-color: rgba(216, 112, 147, 0.185);
+  background-color: #AADEF1;
 }
 .limited-stock-header p{
   font-weight: 400;
@@ -554,7 +552,12 @@ font-family: serif;
 .limited-cards{
   height:230px;
   border-radius: 5px;
+}
+.limited-cards:hover{
   box-shadow: #c9c9c9 2px 2px 5px 2px;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.01);
 }
 .limited-cards img{
   border-radius: 5px;
@@ -567,7 +570,7 @@ font-family: serif;
   background-color: white;
 }
 .style-header{
-  background-color: rgba(59, 183, 255, 0.185);
+  background-color: #AADEF1;
   height:50px;
   border-radius: 5px;
   padding-top: 5px;
@@ -596,7 +599,7 @@ font-family: serif;
   background-color: white;
 }
 .appliance-style-header{
-  background-color: rgba(0, 133, 173, 0.397);
+  background-color: #AADEF1;
   height:50px;
   border-radius: 5px;
   padding-top: 5px;
