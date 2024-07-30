@@ -648,11 +648,28 @@ font-family: serif;
 .official-store{
   padding: 0;
   background-color: white;
-  height: 400px;
+  height: 430px;
   border-radius: 5px;
 }
 .official-s-header{
-  height:60px;
+  height:50px;
   border-radius: 5px;
   background-color: #276076;
+}
+.official-cards{
+  height:200px;
+  border-radius: 5px;
+}
+.official-cards:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.official-cards img{
+  border-radius: 5px;
+}
+.ace-elec{
+  height:200px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0;
 }
