@@ -31,7 +31,7 @@ function myFunction() {
     }
   }
   // Set the date we're counting down to
-var countDownDate = new Date("july 31, 2024 7:00:00").getTime();
+var countDownDate = new Date("july 2, 2024 7:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -55,8 +55,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-    document.querySelector(".flash-sale").style.display = "none";  
+    document.getElementById("demo").innerHTML = "EXPIRED"; 
   }
 }, 1000);
 let slideIndex = 0;
@@ -79,27 +78,7 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
 
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the link that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  document.querySelector(".slideshow-container").style.display = "none";
-  evt.currentTarget.className += " active";
-}
 const productContainers = [...document.querySelectorAll('.product-container')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
@@ -115,4 +94,4 @@ productContainers.forEach((item, i) => {
     preBtn[i].addEventListener('click', () => {
         item.scrollLeft -= containerWidth;
     })
-})
+}) 

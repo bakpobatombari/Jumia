@@ -1,0 +1,150 @@
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .container{
+        margin: 0 !important;
+    }
+    .credit-nav{
+        display: none !important;
+    }
+    .main-nav{
+        padding-left: 0 !important;
+        display: none;
+    }
+    .slider-deck{
+        height:200px !important;
+    }
+    .side-tabs{
+        width: 21%;
+        display: none !important;
+        height: 200px;
+        font-size: 4px;
+    }
+    .cont-slide{
+        height: fit-content;
+        width: 100%;
+        display: none !important;
+    }
+    .mySlides img{
+       height: 200px;
+       width: 100%;
+    }
+    .bef-slides{
+        width: 100% !important;
+    }
+    .but-b{
+        height:fit-content !important;border-bottom: 2px solid black; 
+    }
+    .main-logo img{
+        height:40px;
+    }
+    .product-card{
+        width: 100%;
+        height: fit-content;
+    }
+    .h-image{
+        height: fit-content;
+        width: 100%;
+    }
+    .h-item{
+        height: fit-content;
+    }
+    .search input[type="search"]{
+        width: 40% !important;
+    }
+    .search button{
+        width: 20% !important;
+    } 
+    .slideshow-container{
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+    .product-card{
+        height: 200px;
+        width:80px;
+    }
+    .product-image{
+        margin-bottom: -3rem !important;
+    }
+    .product-info{
+        font-size: 5px !important;
+    }
+    .product-brand{
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .price{
+        font-size: 15px;
+    }
+    .holiday{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .product{
+        height:220px;
+        margin-top: 10px;
+    }
+    .p-t{
+        margin-bottom: -5.5rem;
+    }
+    .limited-cards{
+        width: 60px;
+    }
+    .limited-cards img{
+        width: 100%;
+    }
+    .div-sale{
+        height:100px ;
+        margin-bottom: 1rem;
+    }
+    .limited-stock{
+        display: flex;
+    }   
+    .limited-cards{
+        height: 150px;
+    }
+    .other-sales{
+        padding-left: 0;
+        display: none;
+        border-radius: 4px;
+      }
+      .styler-mod{
+        display: flex !important;
+      }
+      .beauty-cards{
+        width: 60px;
+      }
+      .styler-card img{
+        width:100%;
+      }
+      .beauty-cards img{
+        width: 10px;
+      }
+    .styler-card{
+        width: 20%;
+        height: 150px;
+    }
+    .Dest{
+        height: fit-content;
+    }
+    .office{
+        display: flex;
+    }
+    .official-cards img{
+        width: 100% !important;
+    }
+    .official-cards{
+        width: 70px;
+        height: 150px;
+    }
+    .productS.product-container{
+        margin-top: 1rem !important;
+    }
+}
+@media only screen and (min-width: 1360px){
+    .main-nav{
+        padding-left: 100px;
+    }
+    .mob-main-nav{
+        display: none  !important;
+    }
+    
+}
