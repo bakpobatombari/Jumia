@@ -2,3 +2,142 @@
     background: #F1F1F2 !important;
     background-size: contain;
   }
+  .c-nav ul{
+    display: flex;
+    list-style: none;
+  }
+  .c-nav li{
+    font-family: "Poppins",serif;
+    margin-left: 2px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .c-nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 0.3rem;
+  }
+  .container-about{
+    margin-top: -0.7rem !important;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .disabled{
+    cursor:default;
+  }
+  .first-hlf-c{
+    height: 40rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background: white;
+  }
+  .up-hlf-c{
+    height:20rem;
+    background: white;
+  }
+  .f-c-img-slide img{
+    border-radius: 5px;
+
+  }
+  .f-c-img-slide{
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    cursor: -webkit-zoom-in;
+  }
+  .c-s-button{
+    height: 2rem;
+    border-radius: 3px;
+    border: 1px solid orangered;
+  }
+  .c-slide-buttons-first{
+    background-image: url("/assets/images/1\ \(44\).jpg");
+    background-size: contain;
+  }
+  .c-slide-buttons-sec{
+    background-image: url("/assets/images/1\ \(10\).jpg");
+    background-size: contain;
+  }
+  .c-slide-buttons-third{
+    background-image: url("/assets/images/1\ \(16\).jpg");
+    background-size: contain;
+  }
+  .c-slide-buttons-fourth{
+    background-image: url("/assets/images/1\ \(19\).jpg");
+    background-size: contain;
+  }
+  .c-slide-buttons-fifth{
+    background-image: url("/assets/images/1\ \(40\).jpg");
+    background-size: contain;
+  }
+  .about-c-product{
+    font-family: sans-serif,serif;
+  }
+  .c-n-text{
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.329);
+    height: 5.2rem;
+  }
+  .c-n-text a{
+    text-decoration: none;
+    color:#264996;
+  }
+  .flash-c-t{
+    margin-top: 0.3rem;
+    border: 1px solid #E61601;
+    height:6rem;
+    border-radius: 3px;
+    margin-bottom: 2px;
+  }
+  .head-flash-c{
+    height:30px;
+    background-color: #E61601;
+    border-radius: 2px;
+    
+  }
+  .about-c-product .shipping{
+    font-size: 14px;
+    font-family: "Poppins";
+  }
+  .rate-c-t{
+    height:3rem;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+  }
+  .cart-c-t{
+    height: 3rem;
+    border-radius: 4px;
+    background: #F68B1E;
+    border:none;
+    box-shadow: 1px 1px 1px 2px #F68B1E;
+  }
+  .cart-c-t span{
+    color:white;
+    font-weight: 1px;
+    margin-left: -10rem;
+    margin-right: 10rem;
+  }
+  .cart-c-t{
+    color:white;
+    font-weight: 400;
+  }
+  .promo-items img{
+    height:23px;
+  }
+  .promo-items a{
+    text-decoration: none;
+    color: #264996;
+    font-size: 14px;
+  }
+  .popover-slide{
+    height:30rem;
+    background-color: rgb(209, 119, 119);
+    position: absolute;
+    top: 7rem;
+    z-index: 100;
+    padding-top: 2rem;
+    display: none;
+    width:80%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }

@@ -89,4 +89,42 @@ $(document).ready(function(){
     $(".tabcontent-12").mouseleave(function (){
         $(".tabcontent-12").fadeOut();
     })
+    $(".c-slide-buttons-sec").click(function(){
+        $(".c-s-1").hide();
+        $(".c-s-3").hide();
+        $(".c-s-4").hide();
+        $(".c-s-5").hide();
+        $(".c-s-2").show();
+    })
+    $(".c-slide-buttons-third").click(function(){
+        $(".c-s-2").hide();
+        $(".c-s-1").hide();
+        $(".c-s-4").hide();
+        $(".c-s-5").hide();
+        $(".c-s-3").show();
+    })
+    $(".c-slide-buttons-fourth").click(function(){
+        $(".c-s-1").hide();
+        $(".c-s-2").hide();
+        $(".c-s-3").hide();
+        $(".c-s-5").hide();
+        $(".c-s-4").show();
+    })
+
+    $(".c-slide-buttons-fifth").click(function(){
+        $(".c-s-1").hide();
+        $(".c-s-2").hide();
+        $(".c-s-3").hide();
+        $(".c-s-4").hide();
+        $(".c-s-5").show();
+    })
+    $(".c-slide-buttons-first").click(function(){
+        $(".c-s-2").hide();
+        $(".c-s-3").hide();
+        $(".c-s-4").hide();
+        $(".c-s-5").hide();
+        $(".c-s-1").show();
+    })
+    
+
 })

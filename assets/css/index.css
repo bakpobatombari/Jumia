@@ -180,6 +180,7 @@ main{
   width: 50%;
   border-left: none;
   height: 73%;
+  font-family: serif;
   position: absolute;
   top:8.1rem;
   z-index: 1;
